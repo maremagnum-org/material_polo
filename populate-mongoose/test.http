@@ -1,0 +1,22 @@
+
+### CREAR USUARIO Y PUBLICACIONES
+GET http://localhost:3000/new
+
+### TRAER USUARIOS
+GET http://localhost:3000/getUsers
+
+
+### TRAER PUBLICACIONES
+GET http://localhost:3000/getPublications
+
+
+### 
+POST http://localhost:3000/new
+Content-Type: application/json
+
+{
+    "title": "",
+    "content": "",
+    "autor": "651475c15a6735d9a252c416"
+}
+
